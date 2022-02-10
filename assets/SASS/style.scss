@@ -1,0 +1,134 @@
+$background-yellow:#EDE682 ;
+$background-blue:#7FDBDA ;
+$green: #ADE498;
+$padding: 30px 0 30px;
+$headingp: 10px 0 10px;
+
+
+//-------------------------GENERAL STYLING
+nav{
+    padding: $padding;
+}
+
+.navbar-brand{
+        font-family: 'Playfair Display', serif;
+        font-size: 2rem;
+        color: #000;
+        
+    }
+.logo{
+    color: $background-yellow;
+}
+.nav-link{
+   
+    font-size: 1rem;
+}
+
+.heading{
+    padding: $headingp;
+    font-family: 'Noto Serif Bold', serif;
+}
+
+body{
+    font-family: 'Noto Serif', serif;
+    background-image: linear-gradient(rgb(252, 248, 248),#fff);
+}
+
+.header,.footer,.form,.about{
+    background-color: $background-blue;
+}
+
+p{
+    padding: $headingp;
+}
+section{
+    margin: 30px 0 30px;
+    padding: $padding;
+}
+//--------------------------INDEX PAGE
+
+//----------------Intro section-----------------//
+.intro{
+   padding: 80px 0 80px;
+   background-color: $background-blue;
+}
+.form{
+    padding: 50px;
+}
+.row-services{
+    text-align: center;
+}   
+
+h1{
+    font-size: 6rem;
+}
+.container-fluid{
+    background-color: $background-blue;
+}
+
+hr{
+    line-height: 2rem;
+    
+}
+
+.mediaimg{
+    width: 205px;
+    height: 250px;
+}
+
+.card{
+    border:2px solid $green;
+}
+
+.d-flex{
+    border: 2px dotted $green;
+    
+    padding: $padding;
+    margin: 20px 0 20px;
+}
+
+.flex-grow-1 {
+   position: relative;
+   top: 50px;
+   bottom: 20px;
+}
+
+.intro-p{
+    width: 50%;
+}
+
+.fa{
+    color: #ADE498;
+}
+
+.carousel-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 0 25% 0 25%;
+}
+
+.carousel-caption{
+    color: black;
+    text-align: center;
+}
+
+.radio{
+    display: inline;
+    margin: 0 10px 0;
+}
+
+.uil{
+    color: $green;
+    font-size: 50px;
+
+}
+
+label{
+    font-weight: bold;
+}
+
+.styled{
+    margin: 10px auto;
+    line-height: 2rem;
+    //width: 50%;
+}
