@@ -34,9 +34,10 @@ body{
     background-image: linear-gradient(rgb(252, 248, 248),#fff);
 }
 
-.header,.footer,.form,.about{
+.header.footer,.form,.about{
     background-color: $background-blue;
 }
+
 
 p{
     padding: $headingp;
@@ -61,6 +62,11 @@ section{
 
 h1{
     font-size: 6rem;
+}
+
+h2{
+    font-size: 3rem;
+    
 }
 .container-fluid{
     background-color: $background-blue;
@@ -105,6 +111,8 @@ hr{
     width: 100px;
     height: 100px;
     border-radius: 0 25% 0 25%;
+    float: left;
+    padding-right:10px ;
 }
 
 .carousel-caption{
@@ -131,4 +139,18 @@ label{
     margin: 10px auto;
     line-height: 2rem;
     //width: 50%;
+}
+
+.testimonials{
+    padding: 100px 0 100px;
+    
+}
+
+#carouselExampleCaptions{
+    text-align: center;
+}
+
+#carousel-h{
+    position: relative;
+    bottom: 40px;
 }
